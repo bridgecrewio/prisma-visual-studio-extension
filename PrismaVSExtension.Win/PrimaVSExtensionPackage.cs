@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using Task = System.Threading.Tasks.Task;
 
-namespace PrimaVSExtension.Win
+namespace PrismaVSExtension.Win
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
@@ -28,7 +28,7 @@ namespace PrimaVSExtension.Win
     public sealed class PrimaVSExtensionPackage : AsyncPackage
     {
          /// <summary>
-        /// PrimaVSExtension.WinPackage GUID string.
+        /// PrismaVSExtension.WinPackage GUID string.
         /// </summary>
         public const string PackageGuidString = "8a78503e-4588-4d39-8699-ddb77a8ea364";
 
