@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismaVSExtension.Common", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrismaVSExtension.Mac", "PrismaVSExtension.Mac\PrismaVSExtension.Mac.csproj", "{1F2D2441-B841-4F1E-BFC6-719C3E9CBCA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismaVSExtension.Win", "PrismaVSExtension.Win\PrismaVSExtension.Win.csproj", "{4CB879F7-7941-4896-BB24-80367F4D2828}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimaVSExtension.Win", "PrismaVSExtension.Win\PrimaVSExtension.Win.csproj", "{4CB879F7-7941-4896-BB24-80367F4D2828}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
