@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="PrismaVSExtension.Win.b9e48dbe-7b72-455f-869d-ed7482688779" Version="1.0" Language="en-US" Publisher="Company" />
-    <DisplayName>PrismaVSExtension.Win</DisplayName>
+    <Identity Id="PrismaCloudVSExtension.Win.eabd46b2-ca24-4c24-9b05-2dff8de8e090" Version="1.0" Language="en-US" Publisher="Company" />
+    <DisplayName>PrismaCloudVSExtension.Win</DisplayName>
     <Description>Empty VSIX Project.</Description>
   </Metadata>
   <Installation>

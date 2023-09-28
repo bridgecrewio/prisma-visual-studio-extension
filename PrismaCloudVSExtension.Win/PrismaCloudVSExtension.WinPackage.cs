@@ -1,10 +1,11 @@
 ﻿using Microsoft.VisualStudio.Shell;
+using PrismaCloudVSExtension.Win.Models.Options;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading;
 using Task = System.Threading.Tasks.Task;
 
-namespace PrismaVSExtension.Win
+namespace PrismaCloudVSExtension.Win
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
@@ -24,13 +25,14 @@ namespace PrismaVSExtension.Win
     /// </para>
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [Guid(PrimaVSExtensionPackage.PackageGuidString)]
-    public sealed class PrimaVSExtensionPackage : AsyncPackage
+    [Guid(PrismaCloudVSExtensionWinPackage.PackageGuidString)]
+    [ProvideOptionPage(typeof(PrismaCloudOptions), "Prisma Cloud", "General", 0, 0, true)]
+    public sealed class PrismaCloudVSExtensionWinPackage : AsyncPackage
     {
          /// <summary>
-        /// PrismaVSExtension.WinPackage GUID string.
+        /// PrismaCloudVSExtension.WinPackage GUID string.
         /// </summary>
-        public const string PackageGuidString = "8a78503e-4588-4d39-8699-ddb77a8ea364";
+        public const string PackageGuidString = "806546d0-e1ea-4119-8910-31088cb0d1ab";
 
     #region Package Members
 
