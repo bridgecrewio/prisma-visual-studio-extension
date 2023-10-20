@@ -1,0 +1,21 @@
+{
+    "ExtensionId": "prisma-cloud.prisma-cloud-visual-studio-plugin",
+    "UserConfigurationKey": "prismaCloud",
+    "Requirements": {
+        "MinPythonVersion": "3.7.0"
+    },
+    "Checkov": {
+        "Version": "latest",
+        "Docker": {
+            "CertificateMountPath": "/checkovCert/cacert.pem"
+        }
+    },
+    "FilesSyncInterval": 5000,
+    "Storage": {
+        "ResultsKey": "results"
+    },
+    "UserInterface": {
+        "ExtensionTitle": "Prisma Cloud",
+        "ResultPanelTitle": "Prisma Issue"
+    }
+}
